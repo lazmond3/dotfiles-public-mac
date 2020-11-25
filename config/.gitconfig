@@ -1,0 +1,11 @@
+[user]
+	email = moikilo00@gmail.com
+	name = lazmond3
+[core]
+	editor = vim
+	autocrlf = input
+    whitespace = cr-at-eol
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
